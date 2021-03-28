@@ -8,10 +8,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "com/BookIt/step_defenitions"
+        glue = "com/BookIt/step_defenitions",
+        dryRun = false,
+        tags = ""
 
 )
-public class TestRunner {
+public class CukesRunner {
 
 
 }
